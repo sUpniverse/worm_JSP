@@ -85,8 +85,7 @@
 				<%
 					BbsDAO bbsDAO =  new BbsDAO();
 					ArrayList<Bbs> list = bbsDAO.getlist(pageNumber);					
-					for(int i = 0; i < list.size(); i++) {
-						
+					for(int i = 0; i < list.size(); i++) {						
 					
 				%>
 					<tr>

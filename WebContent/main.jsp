@@ -6,6 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content ="width=device-width", initial-scale="1">
 <link rel = "stylesheet" href="css/bootstrap.css">
+<link rel = "stylesheet" href="css/custom.css">
 <title>Insert title here</title>
 </head>
 <body>
@@ -58,6 +59,41 @@
 					
 		</div>
 	</nav>	
+	<div class="container">
+		<div class="jumbotron">
+			<div class="container">
+			<h1>웹 사이트 소개</h1>
+			<p>	이 웹사이트는 부트스트랩으로 만든 JSP웹사이트 입니다.</p>
+			<p><a class="btn btn-primary btn-pull" href="#" role="button">자세히 알아보기</a></p>			
+			</div>
+		</div>	
+	</div>	
+	<div class="container">
+		<div id="myCarousel" class="carousel" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active">
+				<li data-target="#myCarousel" data-slide-to="1">
+				<li data-target="#myCarousel" data-slide-to="2">
+			</ol>
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="images/1.png">
+				</div>
+				<div class="item">
+					<img src="images/2.png">
+				</div>
+				<div class="item">
+					<img src="images/3.png">
+				</div>
+				<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+				</a>
+				<a class="right carousel-control" href="#myCarousel" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+				</a>
+			</div>		
+		</div>	
+	</div>
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script src="js/bootstrap.js"></script>
 </body>
